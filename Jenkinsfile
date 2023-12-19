@@ -1,5 +1,7 @@
 pipeline {
-    agent any 
+    agent {
+        lebel 'maven'
+    } 
       
     stages {
         stage('Build') {
