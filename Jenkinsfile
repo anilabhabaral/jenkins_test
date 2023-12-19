@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        lebel 'maven'
+        lebel 'any'
     } 
       
     stages {
