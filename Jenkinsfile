@@ -1,9 +1,6 @@
 pipeline {
-    agent { 
-        node {
-            label 'docker-agent-maven'
-            }
-      }
+    agent any 
+      
     stages {
         stage('Build') {
             steps {
